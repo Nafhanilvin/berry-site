@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Happy Birthday 💖</title>
+    <meta
+      name="description"
+      content="A simple birthday page made with love."
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="page">
+      <section class="card intro" id="intro-card">
+        <p class="date">28 February 2026</p>
+        <h1>A Special Birthday Surprise for Berry ✨</h1>
+        <p class="message">
+          Click the button below to open your birthday wish.
+        </p>
+        <div class="button-group">
+          <button class="surprise-btn small-btn" id="btn-i" type="button">
+            I
+          </button>
+          <button class="surprise-btn small-btn" id="btn-see" type="button">
+            See
+          </button>
+          <button class="surprise-btn small-btn" id="btn-you" type="button">
+            You
+          </button>
+        </div>
+        <button class="surprise-btn reveal-btn" id="reveal-btn" type="button">
+          oii click hereee
+        </button>
+      </section>
+
+      <section class="card reveal hidden" id="reveal-card">
+        <img class="photo" src="images/eye1.JPG" alt="Barakath Thalib" />
+        <p class="date">28 February 2026</p>
+        <h1>Happy Birthday, Berry 🎉</h1>
+        <p class="full-name">Barakath Thalib</p>
+        <p class="message">
+          You are such a sweet, caring, and lovely person for me. Today is all about you,
+          and I pray your day is full of joy, warmth, and beautiful moments.
+        </p>
+        <p class="message">
+          May Allah bless you with a year full of barakah, good health, and endless mercy.
+          May He guide your heart, forgive your shortcomings, and grant you success in this
+          life and the Hereafter. May your days be filled with peace, your prayers accepted,
+          and your path always illuminated with iman. Ameen. Happy birthday 🤍
+        </p>
+        <button class="surprise-btn note-btn" id="note-btn" type="button">
+          💌 A Note For You
+        </button>
+        <button class="surprise-btn back-btn" id="back-btn" type="button">
+          ← Back to Start
+        </button>
+        <p class="signature">— With love, Nafhan Ilvin</p>
+      </section>
+    </main>
+
+    <section class="modal hidden" id="note-modal" aria-hidden="true">
+      <div class="modal-card" role="dialog" aria-modal="true" aria-labelledby="note-title">
+        <h2 id="note-title">For Berry</h2>
+        <p>
+          Hey Thangameee, I just want you to know something really important: your value isn’t
+          measured by how you feel on tough days. You are unique, bright, and full of
+          potential that the world is lucky to have. Every challenge you face, every time
+          you feel low, is just a part of your journey—not the definition of who you are.
+        </p>
+        <p>
+          Remember, even on the cloudiest days, you carry a light inside that no one can dim.
+          You matter more than you realize, and the world is better because you’re in it.
+          Take things one step at a time, believe in yourself, and never forget how incredible
+          you truly are. 🌟
+        </p>
+        <button class="surprise-btn close-btn" id="close-modal-btn" type="button">
+          Close
+        </button>
+      </div>
+    </section>
+
+    <section class="modal hidden" id="image-modal" aria-hidden="true">
+      <div class="image-modal-content">
+        <img id="modal-image" src="" alt="" />
+        <button class="surprise-btn close-btn" id="close-image-modal-btn" type="button">
+          Close
+        </button>
+      </div>
+    </section>
+
+    <section class="modal hidden" id="text-modal" aria-hidden="true">
+      <div class="text-modal-content">
+        <h1 class="big-text">SEE</h1>
+        <button class="surprise-btn close-btn" id="close-text-modal-btn" type="button">
+          Close
+        </button>
+      </div>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
